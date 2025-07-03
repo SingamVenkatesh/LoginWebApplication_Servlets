@@ -1,0 +1,47 @@
+Project Title:
+Login and Registration Web Application using Servlets and JSP
+
+✅ Objective:
+To develop a secure and user-friendly web application that allows users to register, log in, and manage sessions, using Java Servlets, JSP, and JDBC with MySQL as the backend database.
+
+✅ Key Features:
+User Registration:
+
+Form to capture username, email, and password.
+
+Validates unique usernames and stores encrypted passwords.
+
+User Login:
+
+Authenticates user credentials against the database.
+
+On success, redirects to a welcome/dashboard page.
+
+Session Management:
+
+Tracks logged-in users using HttpSession.
+
+Prevents unauthorized access to protected pages.
+
+Logout Functionality:
+
+Destroys the session and redirects to the login page.
+
+Input Validation:
+
+Basic form validation using JSP and JavaScript (if added).
+
+Database Integration:
+
+Uses JDBC to connect with MySQL.
+
+Tables: users(id, username, email, password)
+
+✅ Technology Stack:
+Frontend: HTML, CSS, JSP
+
+Backend: Java Servlets, JDBC
+
+Database: MySQL
+
+Tools/Server: Apache Tomcat
